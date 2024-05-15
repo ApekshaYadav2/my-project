@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table Booking</title>
+    <link rel="stylesheet" href="../cssfiles/tablebooking.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+</head>
+
+<!-- <style>
+    #heading{
+         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: rgb(0, 0, 0);
+
+
+    }
+</style> -->
+
+<header>
+    <div class="main">
+        <div class="logo">
+            <img src="../imagesfiles/bistrologo2.png">
+        </div>
+        <ul>
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./menu.html">Menu</a></li>
+            <li><a href="./gallery.html">Gallery</a></li>
+            <li class="active"><a href="./tablebooking.html">Booking</a></li>
+            <li><a href="./branches.html">Branches</a></li>
+            <li><a href="./about.html">About Us</a></li>
+            <li><a href="./contact-us.html">Contact Us</a></li>
+        </ul>
+        </div>
+     <div class="title">
+        <h1>BoOkInG</h1>
+     </div>     
+</header>
+
+<body>
+    <section class="banner">
+        <h2>Book Your Table Now</h2>
+        <div class="card-container">
+            <div class="card-image">
+                <!-- img here -->
+            </div>
+            <div class="card-content">
+                <h3 id = "heading"><strong>Reservation</strong></h3>
+                <form action="./payment-option.html">
+                    <div class="form-row">
+                        <select name="days">
+                            <option value="day-select">Select day</option>
+                            <option value="sunday">Sunday</option>
+                            <option value="sunday">Monday</option>
+                            <option value="sunday">Tuesday</option>
+                            <option value="sunday">Wednesday</option>
+                            <option value="sunday">Thursday</option>
+                            <option value="sunday">Friday</option>
+                            <option value="sunday">Saturday</option>
+                        </select>
+
+                        <select name="hours">
+                            <option value="hour-select">Select Hour</option>
+                            <option value="10">10: 00</option>
+                            <option value="10">12: 00</option>
+                            <option value="10">14: 00</option>
+                            <option value="10">16: 00</option>
+                            <option value="10">18: 00</option>
+                            <option value="10">20: 00</option>
+                            <option value="10">22: 00</option>
+                        </select>
+                    </div>
+                    <div class="form-row">
+                        <input type="text" placeholder="Full Name">
+                        <input type="text" placeholder="Phone-Number">
+                    </div>
+                    <div class="form-row">
+                        <input type="number" placeholder="How Many Persons?" min="1">
+                        <a href="./payment-option.html"><input type="submit" value="BOOK TABLE"></a>
+                    </div>
+                    
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- <footer>
+        <div class="footer-content">
+            <h3>Bistro</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iusto, aliquid?</p>
+
+            <ul class="social">
+              <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+              <li><a href="#"><i class="fab fa-snapchat"></i></a></li>
+              <li> <a href="#"><i class="fab fa-facebook"></i></a></li>
+              <li> <a href="#"><i class="fab fa-twitter"></i></a></li>
+           </ul>
+        </div>
+       <div class="footer-bottom">
+        <p>copyright &copy;2023 bistro. designed by<span>nethunt</span></p>
+       </div>   
+       
+    </footer> -->
+
+</body>
+
+</html>
