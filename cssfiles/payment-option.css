@@ -1,0 +1,89 @@
+/* body{
+    background-image: url(../imagesfiles/back-header.jpg);
+    background-size: cover;
+} */
+
+.main {
+    margin: 6%;
+    margin-left: 25%;
+    width: 1000px;
+}
+
+/* section 1 */
+section.main2 {
+    width: 1178px;
+    margin: 100px auto;
+}
+.section-title{
+    text-align: center;
+    margin-bottom: 80px;
+}
+.section-title h2{
+    text-transform:capitalize ;
+    font-size: 55px;
+    position: relative;
+    display: inline-block;
+    padding-bottom: 20px;
+    margin-bottom: 10px;
+}
+.section-title h2::before{
+    content: '';
+    position: absolute;
+    width: 60px;
+    height: 3px;
+    background-color: #00875c;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+/* section 2 */
+
+.options{
+    font-size: 32px;
+    line-height: 1.6; 
+    text-align: center; 
+}
+.options a{
+    text-decoration: none;
+    color: black;
+}
+
+.options a:hover{
+    color: rgb(208, 130, 34);
+    transition: 0.3s;
+}
+.main .option-1{
+    border: 1px solid black;
+    margin-bottom: 20px;
+    background-color: bisque;
+}
+
+.main .option-2{
+    border: 1px solid black;
+    margin-bottom: 20px;
+    background-color: bisque;
+}
+.main .option-3{
+    border: 1px solid black;
+    margin-bottom: 20px;
+    background-color: bisque;
+}
+
+.main .option-4{
+    border: 1px solid black;
+    margin-bottom: 20px;
+    background-color: bisque;
+}
+
+.main .option-5{
+    border: 1px solid black;
+    margin-bottom: 20px;
+    background-color: bisque;
+}
+.main .option-6{
+    border: 1px solid black;
+    margin-bottom: 20px;
+    background-color: bisque;
+}
+
